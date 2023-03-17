@@ -59,7 +59,7 @@ h1
     gap: 16px; 
     padding: 40px;
 }
-button
+.signup-header
 {
     font-weight: bold;
     background-color: blue;
@@ -67,4 +67,38 @@ button
     padding:4px 18px ;
     border: none;
     border-radius: 5px;
+}
+.information-header
+{
+    display: flex;
+    justify-content: center;
+}
+.img
+{
+    gap: 40px;
+}
+.info-1
+{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    background-color: blueviolet;
+}
+.comment
+{
+    background-color: rgb(218, 215, 215);    
+}
+.call-container
+{
+    background-color: rgb(84, 84, 236);
+    font-size: larger;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.call-sign
+{
+    padding:4px ;
+    color: green;
+    
 }
