@@ -10,7 +10,7 @@ header
 .header-nav
 {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 5px 0px;
+    margin: auto;
     color: white;
     width: 100%;
     display: flex;
@@ -25,9 +25,16 @@ ul
 }
 .header-logo
 {
-    padding: 24px;
-    font-size: larger;
+    margin: auto;
+    margin-left: 40px;
+    font-size: 20px;
     font-weight: bold;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
 }
 .header-centre
 {
@@ -41,22 +48,28 @@ ul
 }
 .header-centre-left 
 {
+
     margin: 40px;
     flex: 1;
-    display: flex;
-    flex-direction: column;
+    display: block;
     gap: 16px;
 }
 h1
 {
-    font-size: 42px;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
 }
 .header-text
 {
     font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:lighter;
 }
 .header-centre-right
 {
+    height: 60px;
+    border: 5px solid grey;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -66,27 +79,46 @@ h1
 .signup-header
 {
     font-weight: bold;
-    background-color: blue;
+    background-color: rgb(100, 100, 230);
     color: white;
-    padding:4px 18px ;
+    padding: 8px 24px ;
+    margin: auto;
     border: none;
     border-radius: 5px;
 }
-.information-header
+.information
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info-window
 {
     display: flex;
     justify-content: center;
-}
-.img
-{
     gap: 40px;
 }
 .info-1
 {
     display: flex;
-    justify-content: baseline;
+    flex-direction: column;
     align-items: center;
-    background-color: blueviolet;
+    width: 200px;
+}
+.img
+{
+    height: 160px;
+    width: 160px;
+    border: 5px solid blue;
+    border-radius: 15px;
+}
+.subtext
+{
+    text-align: center;
+    font-size: 18px;
+    padding: 0px 20px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .comment-container
 {
