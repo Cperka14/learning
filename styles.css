@@ -122,47 +122,44 @@ h1
 }
 .comment-container
 {
-    padding: 20px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 100px 100px;
     margin: auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
     background-color: rgb(218, 215, 215);    
 }
-.author
+span
 {
-    display: flex;
-    justify-content: flex-end;
+    padding-right: 20px;
+    align-self: flex-end;
 
 }
 .call-container
 {
-    background-color: rgb(84, 84, 236);
-    border-radius: 15px;
-    font-size: larger;
-    color: white;
     display: flex;
+    padding: 50px;
     justify-content: center;
-    align-items: center;
-    width: 70%;
-    height: 300px;
-    margin: auto;
 }
-.call-text
+.call-box
 {
-    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+    padding: 50px 120px;
+    color: white;
+    background-color: blue;
 }
 .call-sign
 {
-    font-size: 16px;
+    align-items: center;
     font-weight: bold;
     color: white;
     border: 2px solid white;
     border-radius: 5px;
-    padding:16px;
-    margin:10%;
+    padding: 5px 40px ;
     background-color: rgb(84, 84, 236);
-    
-    
+      
 }
