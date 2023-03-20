@@ -132,34 +132,55 @@ h1
 }
 span
 {
+    color: darkgray;
     padding-right: 20px;
     align-self: flex-end;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 .call-container
 {
     display: flex;
-    padding: 50px;
+    padding: 50px 120px;
+    align-items: center;
     justify-content: center;
+    color: white;
 }
 .call-box
 {
     display: flex;
-    align-items: center;
     justify-content: space-around;
     border-radius: 15px;
-    padding: 50px 120px;
-    color: white;
+    padding: 50px 40px;
+    gap: 50px;
     background-color: blue;
 }
-.call-sign
+.call button
 {
-    align-items: center;
+    align-self: center;
     font-weight: bold;
-    color: white;
     border: 2px solid white;
+    color: white;
     border-radius: 5px;
-    padding: 5px 40px ;
+    padding:5px 40px ;
     background-color: rgb(84, 84, 236);
-      
+    appearance: auto; 
+}
+.call-text
+{
+    margin: 0px;
+    padding: 0px;
+
+}
+.call-text-1
+{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+}
+footer
+{
+    display: flex;
+    justify-content: center;
 }
